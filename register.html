@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/register.css'>
+</head>
+
+<body>
+    <nav id="nav-bar" class="nav">
+        <div class="nav-heading"><a href="index.html">Finder</a></div>
+        <div class="nav-links">
+            <div class="link"><a href="register.html">REGISTER</a></div>
+            <div class="link"><a href="login.html">LOGIN</a></div>
+        </div>
+    </nav>
+    <div class="container">
+        <form id="register-form">
+            <h1 class="title">Register</h1>
+
+            <div class="radio-btn">
+                <input type="radio" name="choice" class="choice" value="male" required />
+                <label for="Male">Male</label>
+
+                <input type="radio" name="choice" class="choice" value="female" required />
+                <label for="female">Female</label>
+            </div>
+
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Name" required />
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required placeholder="Email" />
+
+            <label for="pw">Password:</label>
+            <input type="password" name="pw" id="pw" required placeholder="Password" autocomplete="true" />
+
+            <label for="pw1">Retype Password:</label>
+            <input type="password" name="pw1" id="pw1" placeholder="Retype Password" required autocomplete="true" />
+
+            <input type="submit" name="submit" id="submit" value="Submit" required />
+        </form>
+    </div>
+</body>
+
+</html>
