@@ -1,5 +1,7 @@
 :root {
-    --text: #ecebeb;
+    --text: rgb(15, 11, 11);
+    --small: "Open Sans", sans-serif;
+    --big: "Titillium Web", sans-serif;
 }
 
 body {
