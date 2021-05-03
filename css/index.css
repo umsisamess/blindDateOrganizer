@@ -1,0 +1,16 @@
+@import url(./default.css);
+.nav {
+    display: flex;
+    justify-content: space-between;
+    color: var(--text);
+    --small: "Open Sans", sans-serif;
+    --big: "Titillium Web", sans-serif;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.link {
+    margin-right: 10px;
+}

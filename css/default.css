@@ -1,0 +1,9 @@
+:root {
+    --text: #ecebeb;
+}
+
+body {
+    /* background: linear-gradient(315deg, #A3BCB6 60%, #DADED4 100%); */
+    /* background-color: #A3BCB6; */
+    background-color: #DADED4;
+}
